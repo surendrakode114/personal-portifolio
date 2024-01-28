@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Name - Portfolio</title>
+    <style>
+body { 
+    font-family: 'tahoma', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #000000;
+    color: #0000;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration:none;
+    font-size: large;
+    color: #ffff;
+}
+.section {
+    padding: 5px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 51.5%;
+    margin: 0 auto;
+    text-align: center;
+}
+.project {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    display: inline-block;
+    background-color: #ff4c3b;
+    color: #ffff;
+    padding: 15px 0px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+p
+{
+    color:black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="content">
+            <h1>Your Name</h1>
+            <!--<p>Web Developer</p>-->
+            <p>               KODE BALA TRINAGA SURENDRA </p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="content">
+            <h2>About Me</h2>
+            <!--<p>Your introduction and skills go here.</p>-->
+            <p>Hello
+                Bala Trinaga Surendra Kode here !
+                Dynamic professional with a strong foundation in science and technology who is results-driven thrived at the Anil Neerukonda Institute of Technology & Sciences, with a focus on a variety of technological fields.
+                Refined abilities at Sri Chaitanya College of Education, performing exceptionally well in Intermediate studies with a concentration on chemistry, physics, and mathematics, and succeeding in the SSC at Gitavidylaya High School Amalapuram.
+                Presently holding a Frontlines EduTech (FLM) Web Development certification, I can demonstrate my proficiency in HTML, CSS, JavaScript, Bootstrap, Java, SQL, and Python. Proven ability to create and improve web development projects, use Bootstrap to implement responsive design ideas, and exhibit programming skills in Python, Java, and SQL.
+                A knowledgeable and flexible individual prepared to add a broad skill set and track record of accomplishments to technology-driven projects. devoted to using technical know-how to make significant contributions to the workplace.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Prepaid Smart Energy Meter Using GSM Module</h3>
+                <p>•A prepaid smart energy meter is a type of electricity meter that allows consumers to prepay for their electricity consumption, similar to the way prepaid mobile phone plans work.
+                 </p>
+                 <p>•This technology has become increasingly popular in recent recent years as it offers several advantages over traditional post-paid electricity billing systems.</p>
+            </div>
+            <div class="project">
+                <h3>
+                    Recognizing and Logging Vehicles by scanning Number Plates.</h3>
+                <p>•Transportation vehicles are needed to be logged for security and validation purposes. This can be automated by using the technology of Computer Vision and Neural Networks to recognize the license plates of the vehicles.</p>
+                <p>•Our project is to develop a software which uses a camera to recognize the license plate of the vehicle. The developed system first detects the vehicle and captures the vehicle image. The details are logged for future references.</p>
+            </div>
+            <!-- Add more project sections as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contact-form"; action="resume.jpg" target="_blank"><!--</form>"https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg">-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
